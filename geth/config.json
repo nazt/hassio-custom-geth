@@ -1,0 +1,26 @@
+{
+  "name": "geth",
+  "version": "2.0.6",
+  "slug": "geth",
+  "ingress": true,
+  "ingress_port": 0,
+  "description": "my custom geth",
+  "url": "https://github.com/nazt/hassio-geth/tree/master/geth",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "system",
+  "boot": "auto",
+  "host_network": true,
+  "map": ["config:rw", "ssl"],
+  "options": {
+    "tunnel_host": "",
+    "tunnel_remotes": []
+  },
+  "schema": {
+    "tunnel_host": "str",
+    "tunnel_remotes": [
+      {
+        "remote_string": "str"
+      }
+    ]
+  }
+}

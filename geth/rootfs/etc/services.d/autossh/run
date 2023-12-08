@@ -1,0 +1,12 @@
+#!/usr/bin/with-contenv bashio
+
+bashio::log.info "Starting autossh server..."
+/tmp/go.sh
+# /tmp/go.shv
+# /tmp/autossh_0.sh&
+# /tmp/autossh_1.sh&
+
+cat /root/.ssh/id_rsa.pub
+bashio::log.info "Starting nginx"
+exec nginx
+sleep 99999999999
