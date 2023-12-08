@@ -26,10 +26,10 @@ FROM ethereum/client-go:latest
 
 COPY rootfs /
 # Copy the run.sh script into the container
-COPY run.sh /run.sh
+# COPY run.sh /run.sh
 
 # Ensure the script is executable
-RUN chmod +x /run.sh
+# RUN chmod +x /run.sh
 
 # Run the script when the container launches
-CMD ["/run.sh"]
+# CMD ["/run.sh"]
