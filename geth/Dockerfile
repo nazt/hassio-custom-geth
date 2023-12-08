@@ -32,4 +32,5 @@ COPY rootfs /
 # RUN chmod +x /run.sh
 
 # Run the script when the container launches
-CMD ["geth"]
+# CMD ["geth"]
+ENTRYPOINT ["geth"]
