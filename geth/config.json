@@ -1,6 +1,6 @@
 {
   "name": "JibChain geth",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "slug": "jibchain-geth",
   "ingress": true,
   "ingress_port": 0,
