@@ -1,6 +1,6 @@
 {
   "name": "geth",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "slug": "geth",
   "ingress": true,
   "ingress_port": 0,
