@@ -22,7 +22,7 @@ FROM ethereum/client-go:latest
 # Install bashio and other dependencies, if needed
 # Here, you'd need to know the base distribution. If it's Alpine Linux, use apk. 
 # If it's Debian-based, use apt-get. This is a hypothetical example.
-RUN apk add --no-cache bashio autossh
+# RUN apk add --no-cache bashio autossh
 
 COPY rootfs /
 # Copy the run.sh script into the container
